@@ -1,6 +1,6 @@
 'use strict'
 
-var exports = module.exports = require('./index')
+var exports = module.exports = require('./backend')
 
 // cleanout every sequence for browserifyed code
 Object.keys(module.exports).forEach(function (key) {
@@ -10,4 +10,3 @@ Object.keys(module.exports).forEach(function (key) {
 // TODO could use spans, someway, but YAGNI && KISS
 
 exports.reset = ''
-
